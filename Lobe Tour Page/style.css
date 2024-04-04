@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  padding: 16px 0 0 45px;
+  color: #333;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.navbar #download {
+  text-decoration: none;
+  margin: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #04ddb2;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.navbar #download:hover
+{
+  scale: 1.2;
+}
+
+.navbar ul {
+  display: inline;
+  margin-top: 25px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #767676;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 35px;
+  transition: 0.5s;
+  position: relative;
+}
+
+ul .up-btn:hover {
+  color: #333;
+  scale: 1.2;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140vh;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.title > h1 {
+  color: #333;
+  font-size: 65px;
+}
+
+.title > p {
+  font-size: 22px;
+  color: #767676;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 620px;
+  height: 350px;
+  border-radius: 30px;
+  background-color: #f1e5e5;
+}
+
+.image .img {
+  width: 70%;
+  height: 90%;
+  border-radius: 30px;
+}
+
+.tit2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.tit2 > h1 {
+  font-size: 60px;
+  color: #333;
+}
+
+.down2 {
+  text-decoration: none;
+  margin: 25px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #04ddb2;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.down2:hover
+{
+  scale: 1.1;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.down {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 220px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+#down1 {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  margin-top: 20px;
+}
+
+#down1 .npc {
+  margin: 10px;
+  color: #767676;
+  cursor: default;
+}
+
+#down1 #lobefoot {
+  color: #333;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.npc2 {
+  padding: 12px;
+  color: #333;
+  cursor: default;
+}
+
+.down .work {
+  padding: 12px;
+  transition: 0.5s;
+}
+
+ul .work:hover
+{
+  scale: 1.1;
+}
